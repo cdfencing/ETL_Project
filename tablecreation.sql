@@ -19,3 +19,10 @@ CREATE TABLE country_obesity (
 country TEXT PRIMARY KEY,
 obesity_pct FLOAT
 );
+
+CREATE TABLE country_mental_health (
+country TEXT PRIMARY KEY,
+country_code TEXT,
+year INT,
+prevalence_with_disorder FLOAT
+);
